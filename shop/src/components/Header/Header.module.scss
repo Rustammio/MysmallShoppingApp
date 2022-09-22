@@ -1,0 +1,95 @@
+.header {
+  width: 100vw;
+  background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  &Container {
+
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+
+    font-family: 'Anton', sans-serif;
+
+    &Img {
+      height: 50px;
+      margin-left: 10px;
+
+    }
+
+    &Text {
+      color: white;
+      font-size: 25px;
+      margin: 0;
+    }
+  }
+
+  &Nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+
+    color: white;
+    &Fav {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: relative;
+
+      &Img {
+        height: 30px;
+      }
+      &Amount {
+        position: absolute;
+        top: -5%;
+        right:-40%;
+      }
+      &Text {
+      }
+    }
+
+    &Bin {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: relative;
+
+      &Img {
+        height: 30px;
+      }
+
+      &Amount {
+        position: absolute;
+        top: -5%;
+          right:-60%;
+      }
+
+      &Text {
+
+      }
+    }
+
+    &Item {
+
+      text-decoration: none;
+
+    }
+  }
+}
+

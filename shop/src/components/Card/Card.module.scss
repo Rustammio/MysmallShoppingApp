@@ -1,0 +1,52 @@
+
+.card{
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgba(222, 182, 167, 0.72);
+  text-shadow:0 1px 1px rgba(0,0,0,.4);
+  box-shadow:(0 20px 30px rgba(0,0,0,.6));
+
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+  &Fav{
+    width:30px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  &Img{
+    height: 200px;
+    margin: 10px;
+  }
+  &Info{
+
+
+    &Name{
+
+    }
+    &Place{
+      margin: 0;
+    }
+    &Location{
+
+    }
+    &Rating{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:center;
+      &Average{
+
+      }
+      &Reviews{
+
+      }
+    }
+    &Articul{
+
+    }
+  }
+}
